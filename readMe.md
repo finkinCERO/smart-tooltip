@@ -36,6 +36,7 @@ example:
 
 ## set tooltip via javascript
 - requirements: `tooltip.js` should be loaded & style is inserted
+
 example:
 ```js
 function example(){
