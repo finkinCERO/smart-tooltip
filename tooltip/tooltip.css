@@ -1,0 +1,28 @@
+.tooltip {
+    position: absolute;
+    height: 2em;
+    width: auto;
+    background: #333;
+    color: white;
+    z-index: 1000000;
+    padding: 3px;
+    font-weight: 600;
+    border: 1px solid white;
+}
+.flex-colmn, .flex-column, .flex-midY {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center, .flex-midX {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.justify-center, .flex-midY {
+    justify-content: center;
+}
+
+.hide {
+    display: none;
+}
